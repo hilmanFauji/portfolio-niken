@@ -1,0 +1,301 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #193a59;
+    padding: 20px;
+    color: #fff;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    margin-right: 100px;
+}
+
+.navbar li a:hover {
+    background-color: #172846;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar li a {
+    color: #fff;
+    transition: .5s;
+    padding: 20px;
+    text-decoration: none;
+}
+
+main {
+    max-width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#home {
+    width: 100%;
+    height: 200px;
+    background-color: #2e679c;
+    color: #fff;
+    margin-top: -8px;
+    margin-bottom: 40px;
+}
+
+#home h1 {
+    margin-left: 80px;
+}
+
+#home h2 {
+    margin-left: 100px;
+    font-size: 40px;
+}
+
+#home img {
+    float: left;
+    width: 200px;
+    margin: 50px 50px 500px;
+}
+
+#about h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: -39px;
+}
+
+#about h2 {
+    padding-top: 10px;
+}
+
+#about p {
+    text-align: justify;
+    line-height: 30px;
+    letter-spacing: 2px;
+    width: 1300px;
+    margin-top: 20px;
+    padding-right: 30px;
+}
+
+#about {
+    margin-bottom: 50px;
+    width: 100%;
+    height: 700px;
+    background-color: #c0c0bece;
+}
+
+/* Style Skill Start */
+
+#skills {
+    padding: 20px;
+}
+
+.skill {
+    margin: 10px 30px;
+    display: flex;
+}
+
+.judul {
+    font-size: 40px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.html {
+    width: 33.333%;
+    margin: 10px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.css {
+    width: 33.333%;
+    margin: 10px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.office {
+    width: 33.333%;
+    margin: 10px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.gambar-skill {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.deskripsi-skill {
+    line-height: 30px;
+}
+/* 
+.html {
+    line-height: 20px;
+    letter-spacing: 2px;
+    width: 1100px;
+    margin-top: 20px;
+}
+
+.html p {
+    margin-bottom: 100px;
+    text-align: justify;
+}
+
+.html img {
+    float: left;
+    margin-left: 80px;
+    margin-right: 60px;
+}
+
+.css img {
+    float: left;
+    margin: 50px 60px;
+}
+
+.css p {
+    margin-top: 50px;
+}
+
+.css {
+    padding: 20px;
+}
+
+.office p {
+}
+
+.office img {
+    float: left;
+    margin: 50px;
+} */
+
+/* #contact {
+    align-items: end;
+    justify-content: end;
+    width: 100%;
+    display: flex;
+}
+
+#contact p {
+    margin: 5px;
+    font-size: 20px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+} */
+/* Style Skill End */
+
+/* Style Contact Start */
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.sosmed {
+    width: 50%;
+    text-align: center;
+}
+
+.icon-sosmed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-sosmed {
+    width: 40px;
+    height: 40px;
+    margin: 20px 7px;
+}
+
+.pesan {
+    width: 50%;
+}
+
+.pesan-input {
+    margin: 20px;
+    margin-top: 0px;
+    margin-right: 100px;
+    padding: 20px 25px 40px 25px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.pesan-input h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.pesan-input p {
+    text-align: center;
+}
+
+form {
+    padding: 0px 50px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 10px 0px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid rgba(46, 103, 156, 0.8);
+    border-radius: 7px;
+    outline: none;
+    transition-duration: 150ms;
+}
+
+textarea {
+    height: 100px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    max-width: 40rem;
+    margin: 20px 0px 10px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: black;
+    background-color: rgba(46, 103, 156, 0.8); 
+    cursor: pointer;
+    transition-duration: 150ms;
+}
+
+button[type="submit"]:hover {
+    opacity: 0.8;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(92, 41, 41, 0.05);
+}
+
+/* Style Contact End */
+
+/* Style Footer Start */
+footer {
+    background-color: #333;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+}
+/* Style Footer End */
